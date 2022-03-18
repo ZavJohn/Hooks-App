@@ -12,11 +12,12 @@ import ReactDOM from 'react-dom';
 //import { CounterFtCustomHook } from './components/01-useState/CounterFtCustomHook';
 //import { SimpleForm } from './components/02-useEffect/SimpleForm';
 //import { HookApp } from './HookApp';
-import { Padre } from './components/07-tarea-memo/Padre';
+//import { Padre } from './components/07-tarea-memo/Padre';
+import { TodoApp } from './components/08-use-reducer/TodoApp';
 
 ReactDOM.render(
 
-    <Padre />,
+    <TodoApp />,
   document.getElementById('root')
 );
 
