@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del <todoListItem/> Debe llamar el handleToggle 1`] = `
+<li
+  className="list-group-item"
+  key="1"
+>
+  <p
+    className="text-start false"
+    onClick={[Function]}
+  >
+    1
+    .
+    Aprender React
+  </p>
+  <div
+    className="d-grid gap-2 d-md-flex justify-content-md-end"
+  >
+    <button
+      className="btn btn-danger btn-sm"
+      onClick={[Function]}
+    >
+      Borrar
+    </button>
+  </div>
+</li>
+`;
+
+exports[`Pruebas del <todoListItem/> Debe mostrarse correctamente 1`] = `
+<li
+  className="list-group-item"
+  key="1"
+>
+  <p
+    className="text-start false"
+    onClick={[Function]}
+  >
+    1
+    .
+    Aprender React
+  </p>
+  <div
+    className="d-grid gap-2 d-md-flex justify-content-md-end"
+  >
+    <button
+      className="btn btn-danger btn-sm"
+      onClick={[Function]}
+    >
+      Borrar
+    </button>
+  </div>
+</li>
+`;
